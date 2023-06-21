@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="style.scss"> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login_form">
+        <section class="login-wrapper">
+            <form id="login" method="post" action="login">
+                <label for="username">Email</label>
+                <input class='name' required name="email" type="text" autocapitalize="off" autocorrect="off"
+                    placeholder="name" maxlength="40" />
+                <label for="password">Password</label>
+                <input class="password" required name="pass" type="password" placeholder="********"
+                    maxlength="40" />
+                <div class="security">
+                    <div class="security-bar"></div>
+                </div>
+                <div class="hide-show">
+                    <span class="show">Show</span>
+                </div>
+                <p class="output"></p>
+                <button type="submit">Sign In</button>
+                <p style="color: red;" class="err">{{errorMSG}}</p>
+            </form>
+        </section>
+    </div>
+    {{!-- <script src="js/main.js"></script> --}}
+</body>
+
+</html>

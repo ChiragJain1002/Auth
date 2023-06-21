@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <title>Sign-Up-Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="/signup" method="post" class="sign-form" id="sign-form" autocomplete="on">
+            <h1 class="form-title">Sign Up</h1>
+            <p class="form-caption">See your growth and get consulting support!</p>
+            <button class="google-sign-btn"><i class="fa fa-google"></i> <a href="/login">Sign up with Google</a></button>
+
+            <label for="username">Name<span class="star-required">*</span></label>
+            <input type="text" name="username" id="username" placeholder="Name">
+
+            <label for="phone">Phone<span class="star-required">*</span></label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone">
+
+            <label for="email">Email<span class="star-required">*</span></label>
+            <input type="email" name="email" id="email" placeholder="mail@website.com">
+
+            <label for="password">Password<span class="star-required">*</span></label>
+            <input type="password" name="pass" id="password" placeholder="Min. 8 character">
+            <input type="submit" value="Sign Up" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>

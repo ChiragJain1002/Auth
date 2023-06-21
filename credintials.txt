@@ -1,0 +1,5 @@
+username: 
+email   : chiragjainvvu@gmail.com
+password: Chirag123@#
+
+Repository : authRepo
